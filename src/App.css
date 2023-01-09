@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#xpd {
+	height: 100vh;
+	background-color: white;
+	position: relative;
+}
+
+#xpd-front-top {
+	position: absolute;
+	height: 10%;
+	width: 100%;
+	z-index: 4;
+	top: 0;
+	left: 0;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	padding: 0 5%;
+}
+
+#xpd-front-top #xpd-logo-circle {
+	background-color: white;
+	padding: 0%;
+	width: 50px;
+	height: 50px;
+	padding: 1%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100px;
+	position: relative;
+}
+
+#xpd-front-top #xpd-logo-circle #xpd-logo {
+	width: 70%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#xpd-front-top #xpd-ad-text {
+	margin-left: 5%;
+}
+
+#xpd-front-top #xpd-ad-text #xpd-ad-text-name {
+	color: #eeeeee;
+	margin-bottom: 3%;
+	font-size: 4vw;
+}
+
+#xpd-front-top #xpd-ad-text #xpd-ad-text-desc {
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	font-size: 3vw;
+}
+
+#xpd-front-top #xpd-ad-text #xpd-ad-text-desc span {
+	background-color: #f5c643;
+	padding: 2% 4%;
+	margin-right: 6%;
+	border-radius: 2px;
+}
+
+#xpd-front-top #xpd-ad-text #xpd-ad-text-desc a {
+	text-decoration: none;
+	color: #dddddd;
+}
+
+#xpd-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+#xpd-volume {
+	position: absolute;
+	z-index: 4;
+	top: 22%;
+	right: 2%;
+	width: 8%;
+	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg)
+		brightness(102%) contrast(102%);
+}
+
+#xpd-logo {
+	width: 70%;
+	position: absolute;
+	bottom: 59%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#xpd-gallery {
+	padding-top: 30px;
+	position: absolute;
+	bottom: 50%;
+	width: 100%;
+}
+
+#xpd-gallery-text {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	font-size: 6vw;
+}
+
+#xpd-swiper {
+	padding: 10px;
+	position: absolute;
+	width: 100%;
+}
+
+#xpd-swiper-card {
+	height: 350px;
+	width: 200px;
+	position: relative;
+}
+
+#xpd-swiper-card-img {
+	height: 225px;
+	width: 200px;
+	overflow: hidden;
+	background-color: #eeeeee;
+	border-radius: 10px;
+}
+
+#xpd-swiper-card-img img {
+	width: 100%;
+}
+
+#xpd-swiper-card-text {
+	padding: 10px;
+}
+
+#xpd-swiper-card-sub {
+	font-size: 3.5vw;
+	margin-bottom: 2px;
+}
+
+#xpd-swiper-card-main {
+	font-size: 4.5vw;
+	font-weight: 600;
+}
+
+#xpd-swiper-card-button {
+	background-color: #eeeeee;
+	position: absolute;
+	bottom: 10px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	border-radius: 8px;
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 3.5vw;
+	font-weight: 500;
+}
+
+#xpd-cta-button {
+	position: absolute;
+	bottom: 10px;
+	padding: 0 10px;
+	margin-left: 10px;
+	width: calc(100% - 20px);
+	background-color: #eeeeee;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	border-radius: 8px;
+	color: black;
+	font-size: 4vw;
+	font-weight: 500;
+}
+
+.swiper-button-prev {
+	background-color: #ffffff;
+	width: 8vw !important;
+	height: 8vw !important;
+	border-radius: 100px;
+}
+
+.swiper-button-prev::after {
+	font-size: 4vw !important;
+	color: #000;
+	margin-left: -5%;
+}
+
+.swiper-button-next {
+	background-color: #ffffff;
+	width: 8vw !important;
+	height: 8vw !important;
+	border-radius: 100px;
+}
+
+.swiper-button-next::after {
+	font-size: 4vw !important;
+	color: #000;
+	margin-right: -5%;
+}
